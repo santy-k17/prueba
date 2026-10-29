@@ -1,0 +1,38 @@
+HAIR BY BELKIS — SITIO COMPLETO
+
+Contenido: Inicio, Conócenos, Servicios y Contacto; español e inglés;
+imágenes, logo transparente y menú azul oscuro.
+
+INSTALACIÓN EN CPANEL
+1. Abre Administrador de archivos y entra en la carpeta raíz del dominio.
+   Para el dominio principal suele ser public_html; otros dominios pueden
+   tener una carpeta diferente. Confírmala en la sección Dominios de cPanel.
+2. Si ya existe una web, realiza primero una copia de seguridad.
+3. Sube este ZIP y extráelo en esa carpeta. index.html debe quedar
+   directamente en la raíz del dominio, junto a styles.css, app.js,
+   translations.js y la carpeta assets.
+4. Si un index.php anterior toma prioridad, consérvalo en tu copia de
+   seguridad y retíralo de la raíz solo cuando vayas a sustituir la web.
+5. Abre tu dominio y comprueba las cuatro páginas, los idiomas y el menú.
+6. Puedes borrar el ZIP del servidor después de extraerlo.
+
+No requiere WordPress, base de datos ni instalación de paquetes.
+Los enlaces internos son relativos y funcionan en un dominio propio.
+El dominio debe apuntar a tu hosting y tener SSL configurado.
+
+CONTACTO
+El formulario prepara un mensaje para copiarlo y enviarlo por Instagram.
+No envía correos ni confirma reservas automáticamente.
+Teléfono e Instagram conservan los datos del salón.
+
+EDICIÓN
+index.html: Inicio
+nosotros.html: Conócenos
+servicios.html: Servicios
+contacto.html: Contacto
+styles.css: diseño y adaptación móvil
+translations.js: traducciones al inglés
+app.js: selector de idioma, menú y preparación de mensajes
+assets/: imágenes y logo
+Si editas un texto en español, actualiza su entrada en translations.js.
+Los testimonios permanecen identificados como ejemplos.
